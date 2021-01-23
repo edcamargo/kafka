@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\kafka\\producer\\producer.csproj": {}
+    "C:\\Projetos\\kafka-demo\\producer\\producer.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\kafka\\producer\\producer.csproj": {
+    "C:\\Projetos\\kafka-demo\\producer\\producer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\kafka\\producer\\producer.csproj",
+        "projectUniqueName": "C:\\Projetos\\kafka-demo\\producer\\producer.csproj",
         "projectName": "producer",
-        "projectPath": "C:\\Projetos\\kafka\\producer\\producer.csproj",
+        "projectPath": "C:\\Projetos\\kafka-demo\\producer\\producer.csproj",
         "packagesPath": "C:\\Users\\Edwin\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\kafka\\producer\\obj\\",
+        "outputPath": "C:\\Projetos\\kafka-demo\\producer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Edwin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Confluent.Kafka": {
               "target": "Package",
@@ -58,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
